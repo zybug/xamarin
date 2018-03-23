@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: iOS 学习组 -- Xamarin Forms
-email: zy@zybug.com
+#email: zy@zybug.com
 description: >- # this means to ignore newlines until "baseurl:"
   Xamarin Forms 基础入门
   文章转载请注明出处
