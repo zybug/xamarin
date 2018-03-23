@@ -1,25 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-03-22 20:31:43 +0800
-categories: jekyll update
+title:  "Xamarin Forms 引子"
+date:   2018-03-23 20:31:43 +0800
+categories: xamarin forms     
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+其实这个写作计划了好久，但是一直没有恒心坚持下来，所以为了督促自己，以后每天写一点，大致我想写这几个方面，首先就是```C#``` 基础入门，但是不会长篇去写这个，因为我们主要是准备要写```Xamarin Forms```开发的。     
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+前因：  
+在国内```C#```其实也是不温不火，有些公司也把```C#```后台换成了```Java```，```Xamarin```的文章也是非常少，```Xamarin Forms```的相关介绍就更少了，由于现在公司的一个主要产品要使用```Xamarin Forms```进行开发，所以我想把我学习的一点心得都记录下来，公司的这个项目是今年年初开始进行的，由于开发人员不是很多，我基本上参与了所有的项目和功能模块的开发，所以现在对```Xamarin Forms```还是有一些了解的，但是我以前一直是在做```iOS``` 开发，所以```C#```用的也不是很多，所以也是一路摸索着学习，希望我能坚持下去吧，```Xamarin Forms```是可以同时开发```Android``` 和 ```iOS``` 两个项目，所以有时候我也回去看一些原生```Android```相关的开发，都会记录下来，文章主要还是会以```iOS```开发的视角为主线，但是```Xamarin Forms```中所有的Demo都会用```Android``` 和```iOS```同时展现。 
