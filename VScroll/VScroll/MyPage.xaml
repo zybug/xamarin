@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:VScroll"
+             x:Class="VScroll.MyPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <ScrollView Orientation="Horizontal">
+                <local:RepeatableWrapLayout x:Name="wrapLayout" ItemsSource="{Binding BooksInfo}" OneColumns="true" IsSquare="false" Spacing="3" >
+                    <local:RepeatableWrapLayout.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout HeightRequest="140" WidthRequest="100" Spacing="2">
+                                <Image Source="{Binding CoverImage}" HeightRequest="123" />
+                            </StackLayout>
+                        </DataTemplate>
+                    </local:RepeatableWrapLayout.ItemTemplate>
+                </local:RepeatableWrapLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
