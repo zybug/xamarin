@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Xamarin Forms 基础入门
   文章转载请注明出处
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://xamarin.zybug.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://xamarin.zybug.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  zybug
 
