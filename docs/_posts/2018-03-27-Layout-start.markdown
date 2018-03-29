@@ -12,8 +12,7 @@ categories: xamarin forms Layout
 我们就一个一个来学习一下
 
 
-# StackLayout
-       
+# StackLayout   
 ```StackLayout```(栈布局)，类似安卓里面线性布局，定位由视图添加到的布局和视图的布局选项的顺序确定。    
 
 ![]({{site.url}}/images/layout/stacklayout.png)     
