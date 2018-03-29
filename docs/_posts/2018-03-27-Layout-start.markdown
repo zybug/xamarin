@@ -12,10 +12,10 @@ categories: xamarin forms Layout
 我们就一个一个来学习一下
 
 
-# StackLayout       
-```StackLayout```(栈布局)，类似安卓里面线性布局，定位由视图添加到的布局和视图的布局选项的顺序确定。 
-    
-  
+# StackLayout
+       
+```StackLayout```(栈布局)，类似安卓里面线性布局，定位由视图添加到的布局和视图的布局选项的顺序确定。    
+
 ![]({{site.url}}/images/layout/stacklayout.png)     
 如图所示，就是依次排列下来，默认情况下，栈布局添加的子视图有6px的边距，当然可以设置```Spacing```属性来调整。
 
